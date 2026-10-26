@@ -1,0 +1,6 @@
+{
+  "name": "Manisha Fashion ERP & Storefront",
+  "description": "Zero-license-cost omnichannel ecommerce management system for Manisha Fashion, featuring offline-first desktop management, local AI Image Studio, and mobile-friendly public shopping storefront.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "manisha-fashion-erp"
+version = "1.0.0"
+description = "Zero-license-cost ERP and offline inventory system for Manisha Fashion"
+authors = ["Manisha Fashion <tech@manishafashion.com>"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [] }
+tauri-plugin-opener = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.31", features = ["bundled"] }
